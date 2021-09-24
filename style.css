@@ -41,6 +41,9 @@ nav{
     padding-top: 5px;
     padding-left: 5px;
 }
+nav >img{
+    border-radius: 100px;
+}
 nav >a{
     display: block;
     text-decoration: none;
