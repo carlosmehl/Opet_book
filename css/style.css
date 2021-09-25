@@ -26,7 +26,7 @@ body{
     font-weight: bolder;
     float: right;
     padding-top: 30px;
-    padding-left: 7px;
+    padding-left: 25px;
     padding-right: 7px;
 }
 #menu >a:hover{
@@ -36,6 +36,30 @@ body{
     float: left;
     padding-top: 0;
     padding-left: 15px;
+}
+.home-ico{
+    height: 14px;
+    width: 15px;
+}
+.profile-ico{
+    height: 18px;
+    width: 18px;
+}
+.notif-ico{
+    height: 18px;
+    width: 18px;
+}
+.feed-ico{
+    height: 16px;
+    width: 16px;
+}
+.mesg-ico{
+    height: 16px;
+    width: 16px;
+}
+.jobs-ico{
+    height: 16px;
+    width: 16px;
 }
 /* /Cabeçalho */
 /* Menu lateral esquerdo*/
