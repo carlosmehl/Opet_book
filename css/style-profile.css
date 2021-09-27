@@ -41,3 +41,63 @@ nav >p{
     margin-left: 25px;
     
 }
+/* Section */
+section{
+    width: 85%;
+    margin: auto;
+    margin-top: 20px;
+    border-top: 1px solid rgba(0, 0, 0, 0.404);
+    border-right: 1px solid rgba(0, 0, 0, 0.404);
+    border-left: 1px solid rgba(0, 0, 0, 0.404);
+}
+textarea{
+    resize: none;
+}
+#menu-feed >form{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.404);
+}
+#menu-feed >form>input{
+    float: right;
+}
+section >header>a{
+    padding-top: 80px;
+    text-decoration: none;
+    color: black;
+    padding: 15px;
+}
+.prof-pic{
+    max-width: 50px;
+    max-height: 50px;
+    padding: 5px;
+}
+article{
+    margin-top: 25px;
+    background-color: white;
+    border-radius: 8px;
+}
+.prof-pic{
+    max-width: 50px;
+    max-height: 50px;
+    padding: 5px;
+}
+article >a{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    font-size: 1.1em;
+}
+article >a:hover{
+    color: orangered;
+}
+article >p{
+    padding: 15px;
+}
+article >img{
+    padding-left: 25px;
+}
+section >header>a:hover{
+    color: orangered;
+}
