@@ -9,8 +9,36 @@
     <link rel="stylesheet" href="css/style-profile.css">
 </head>
 <body>
-    <header>
+    <header id="cover">
         <img src="images/profile_picture.jpg" alt="Foto de perfil">
+        <p>Carlos Mehl</p>
     </header>
+    <nav>
+        <input type="button" value="Atualizar informações" />
+        <p>Estudante de ADS - Uniopet</p>
+        <p>Trabalha em Algar Tech</p>
+        <p>Mora em Curitiba</p>
+        <p>De Curitiba</p>
+    </nav>
+    <section>
+        <header id="menu-feed">
+            <a href="#">Publicar vaga</a>
+            <a href="#">Adicionar foto ou vídeo</a>
+            <a href="#">Fazer uma pergunta</a>
+            <form name="publicar" method="GET" action="">
+            <label for="coment">No que você está pensando?</label>
+            <br>
+            <textarea name="publish" id="publish" cols="122" rows="10"></textarea>
+            <br>
+            <input type="submit" value="Enviar" />
+            </form>
+        </header>
+        <article>
+            <img src="images/usuario-sem-foto.jpg" alt="Perfil-1" class="prof-pic">
+            <a href="#">João Pedro</a>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident inventore labore quia voluptas facere dolores minus doloremque aliquam et qui molestiae nesciunt eligendi perferendis beatae ipsum, magni unde dignissimos? Sed.</p>
+            <img src="images/download.jpg" alt="Vaga de emprego">
+        </article>
+    </section>
 </body>
 </html>
